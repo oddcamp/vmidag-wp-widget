@@ -58,7 +58,6 @@ function _vmidag_get_games_data() {
   $data = wp_cache_get('games.json', 'vmidag');
 
   if (empty($data)) {
-    echo('cache:"'.print_r($data,1).'"');
     $contents = wp_remote_fopen('http://local.vmidag.se/frontend_dev.php/games.json');
     $data = json_decode($contents);
 
