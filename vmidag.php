@@ -28,6 +28,8 @@ function widget_vmidag_init() {
     $today_start = mktime(0, 0, 0);
     $today_end = mktime(23, 59, 59);
 
+    date_default_timezone_set('Europe/Stockholm');
+
     $no_game_today = true;
     foreach ($data->games as $game) {
       if ($game->kickoff >= $today_start && $game->kickoff <= $today_end) {
