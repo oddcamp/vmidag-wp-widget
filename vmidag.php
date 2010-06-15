@@ -6,7 +6,7 @@ Plugin URI: http://www.vmidag.se/wp-widget
 Description: Adds a sidebar widget showing the today's World Cup games.
 Author: Tobias Sjösten
 Version: 1.0
-Author URI: http://www.tobiassjosten.net/
+Author URI: http://www.kollegorna.se/
 */
 
 
